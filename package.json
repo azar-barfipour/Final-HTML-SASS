@@ -1,0 +1,23 @@
+{
+  "name": "final-html-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css main.scss -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azar-barfipour/Final-HTML-SASS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azar-barfipour/Final-HTML-SASS/issues"
+  },
+  "homepage": "https://github.com/azar-barfipour/Final-HTML-SASS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

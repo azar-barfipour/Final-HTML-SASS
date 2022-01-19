@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-image: url("../../images/desktop/image-header.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.nav__item {
+  color: white; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto; }
+
+.nav__items {
+  display: flex; }
+
+.nav__item {
+  list-style: none;
+  padding: 1rem; }
+
+.navbar h1 {
+  color: white; }
+
+.logo {
+  margin: 1rem; }
+
+.nav__item--active {
+  background-color: white;
+  color: #000;
+  border-radius: 2rem; }
