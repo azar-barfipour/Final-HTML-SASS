@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Kumbh Sans", sans-serif;
-  min-width: 300px;
+  min-width: 450px;
 }
 .header h1 {
   color: white;
@@ -64,6 +64,7 @@
 .main__content {
   display: grid;
   grid-template-columns: 50% 50%;
+  min-width: 450px;
 }
 @media (max-width: 700px) {
   .main__content {
@@ -73,7 +74,6 @@
 
 .image {
   max-width: 100%;
-  min-width: 300px;
 }
 
 .info {
@@ -115,13 +115,18 @@
 .back-gallery {
   position: relative;
   background-image: url("./../images/desktop/image-graphic-design.png");
-  min-width: 300px;
+  min-width: 225px;
   height: 600px;
   max-height: 100vh;
   max-width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 450px) {
+  .back-gallery {
+    min-width: 450px;
+  }
 }
 .back-gallery h3 {
   margin-bottom: 1rem;
@@ -139,13 +144,18 @@
 .back-gallery2 {
   position: relative;
   background-image: url("./../images/desktop/image-photography.png");
-  min-width: 300px;
+  min-width: 225px;
   height: 600px;
   max-height: 100vh;
   max-width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 450px) {
+  .back-gallery2 {
+    min-width: 450px;
+  }
 }
 .back-gallery2 h3 {
   margin-bottom: 1rem;
@@ -194,7 +204,12 @@
 }
 
 .testimonial {
-  width: 390px;
+  width: 396px;
+}
+@media (max-width: 700px) {
+  .testimonial {
+    margin: auto;
+  }
 }
 
 .sentencTest {
@@ -240,7 +255,7 @@
 }
 @media (max-width: 700px) {
   .gallery__img {
-    min-width: 390px;
+    min-width: 450px;
   }
 }
 
@@ -248,7 +263,7 @@
   text-align: center;
   background-color: #458c7e;
   width: 100%;
-  min-width: 350px;
+  min-width: 450px;
 }
 
 .footer__items {
