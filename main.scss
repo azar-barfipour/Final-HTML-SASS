@@ -1,8 +1,0 @@
-@import "stylesheets/abstracts/variables", "stylesheets/abstracts/functions",
-  "stylesheets/abstracts/mixins";
-
-// 2. Base stuff
-@import "stylesheets/base/base", "stylesheets/base/fonts";
-
-// 3. Layout-related sections
-@import "stylesheets/layout/header", "stylesheets/layout/footer";

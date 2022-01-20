@@ -1,0 +1,38 @@
+@use "../base/fonts" as *;
+@use "../base/base" as *;
+.footer {
+  text-align: center;
+  background-color: $color-footer;
+}
+.footer__items {
+  display: flex;
+  justify-content: center;
+}
+.footer__item {
+  padding: 1rem;
+  list-style: none;
+  color: $color-darkBlue;
+  font-family: $font-primary;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.contact__items {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.contact__item {
+  padding: 1rem;
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: $color-darkBlue;
+    cursor: pointer;
+  }
+}
+.sunnyside {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: $color-darkBlue;
+  font-family: $font-primary;
+}

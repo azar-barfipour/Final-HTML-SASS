@@ -1,38 +1,231 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  border: none;
+  box-sizing: border-box;
+}
 
 .header {
   background-image: url("../../images/desktop/image-header.jpg");
-  height: 500px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.header h1 {
+  color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
 
 .nav__item {
-  color: white; }
+  color: white;
+}
 
 .navbar {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: auto; }
+  margin: auto;
+}
 
 .nav__items {
-  display: flex; }
+  display: flex;
+}
 
 .nav__item {
   list-style: none;
-  padding: 1rem; }
-
-.navbar h1 {
-  color: white; }
+  padding: 1rem;
+}
 
 .logo {
-  margin: 1rem; }
+  margin: 1rem;
+}
 
-.nav__item--active {
-  background-color: white;
-  color: #000;
-  border-radius: 2rem; }
+.main__content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.info {
+  width: 60%;
+  margin: auto;
+}
+.info h3 {
+  margin-bottom: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.info p {
+  line-height: 1.5;
+  color: #25564b;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-bottom: 1rem;
+}
+.info a {
+  color: #23303e;
+  font-weight: bold;
+  font-size: large;
+}
+.info .info__link1 {
+  text-decoration: underline #fad400;
+}
+.info .info__link2 {
+  text-decoration: underline #fe7867;
+}
+
+.back-gallery {
+  position: relative;
+  background-image: url("../../images/desktop/image-graphic-design.jpg");
+  height: 600px;
+  max-height: 100vh;
+  max-width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back-gallery h3 {
+  margin-bottom: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+}
+.back-gallery p {
+  line-height: 1.5;
+  color: #25564b;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.back-gallery2 {
+  position: relative;
+  background-image: url("../../images/desktop/image-photography.jpg");
+  height: 600px;
+  max-height: 100vh;
+  max-width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back-gallery2 h3 {
+  margin-bottom: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+}
+.back-gallery2 p {
+  line-height: 1.5;
+  color: #25564b;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.testimonials {
+  margin: 2rem auto;
+  width: 90%;
+  text-align: center;
+}
+.testimonials img {
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #a7abae;
+}
+.testimonials p {
+  margin-bottom: 2rem;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #5a636c;
+}
+.testimonials h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.testimonials h5 {
+  color: #a7abae;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.testimonial {
+  width: 600px;
+}
+
+.sentencTest {
+  height: 100px;
+}
+
+.back__info {
+  width: 70%;
+  position: absolute;
+  bottom: 1rem;
+  left: 5rem;
+  z-index: 10;
+}
+
+.testimonials__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__wrapper {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.gallery__img {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  background-color: #458c7e;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__item {
+  padding: 1rem;
+  list-style: none;
+  color: #23303e;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.contact__items {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.contact__item {
+  padding: 1rem;
+  list-style: none;
+}
+.contact__item a {
+  text-decoration: none;
+  color: #23303e;
+  cursor: pointer;
+}
+
+.sunnyside {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #23303e;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

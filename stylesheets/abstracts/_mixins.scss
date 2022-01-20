@@ -1,0 +1,8 @@
+@mixin backgroundImage {
+  height: 600px;
+  max-height: 100vh;
+  max-width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
