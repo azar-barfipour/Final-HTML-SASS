@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: $font-primary;
-  min-width: 455px;
+  min-width: 300px;
   h1 {
     color: $color-white;
     font-family: $font-primary;
@@ -56,7 +56,8 @@
 }
 .image {
   max-width: 100%;
-  min-width: 455px;
+
+  min-width: 300px;
 }
 .info {
   width: 60%;
@@ -92,9 +93,9 @@
 }
 .back-gallery {
   position: relative;
-  background-image: url("./../images/desktop/image-graphic-design.jpg");
+  background-image: url("./../images/desktop/image-graphic-design.png");
+  min-width: 300px;
   @include backgroundImage;
-  min-width: 455px;
   h3 {
     margin-bottom: 1rem;
     font-family: $font-primary;
@@ -110,7 +111,8 @@
 }
 .back-gallery2 {
   position: relative;
-  background-image: url("./../images/desktop/image-photography.jpg");
+  background-image: url("./../images/desktop/image-photography.png");
+  min-width: 300px;
   @include backgroundImage;
   h3 {
     margin-bottom: 1rem;
@@ -185,9 +187,15 @@
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   @media (max-width: 700px) {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
   }
+  // @media (max-width: 455px) {
+  //   grid-template-columns: 100%;
+  // }
 }
 .gallery__img {
   width: 100%;
+  @media (max-width: 700px) {
+    min-width: 390px;
+  }
 }

@@ -3,6 +3,8 @@
 .footer {
   text-align: center;
   background-color: $color-footer;
+  width: 100%;
+  min-width: 350px;
 }
 .footer__items {
   display: flex;
