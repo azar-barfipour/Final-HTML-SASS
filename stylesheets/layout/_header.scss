@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: $font-primary;
+  min-width: 455px;
   h1 {
     color: $color-white;
     font-family: $font-primary;
@@ -55,6 +56,7 @@
 }
 .image {
   max-width: 100%;
+  min-width: 455px;
 }
 .info {
   width: 60%;
@@ -92,6 +94,7 @@
   position: relative;
   background-image: url("./../images/desktop/image-graphic-design.jpg");
   @include backgroundImage;
+  min-width: 455px;
   h3 {
     margin-bottom: 1rem;
     font-family: $font-primary;
@@ -187,4 +190,5 @@
 }
 .gallery__img {
   width: 100%;
+  min-width: 450px;
 }
