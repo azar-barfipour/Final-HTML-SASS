@@ -2,7 +2,7 @@
 @use "../base/base" as *;
 .footer {
   text-align: center;
-  background-color: $color-footer;
+  background-color: $color-yellow;
 }
 .footer__items {
   display: flex;
@@ -33,6 +33,6 @@
 .sunnyside {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: $color-darkBlue;
+  color: $color-footer;
   font-family: $font-primary;
 }

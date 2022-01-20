@@ -2,7 +2,7 @@
 @use "../base/base" as *;
 @use "../abstracts/mixins" as *;
 .header {
-  background-image: url("./images/desktop/image-header.jpg");
+  background-image: url("../../images/desktop/image-header.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@
 }
 .back-gallery {
   position: relative;
-  background-image: url("./images/desktop/image-graphic-design.jpg");
+  background-image: url("../../images/desktop/image-graphic-design.jpg");
   @include backgroundImage;
   h3 {
     margin-bottom: 1rem;
