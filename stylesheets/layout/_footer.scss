@@ -2,7 +2,7 @@
 @use "../base/base" as *;
 .footer {
   text-align: center;
-  background-color: $color-yellow;
+  background-color: $color-footer;
 }
 .footer__items {
   display: flex;
@@ -11,7 +11,7 @@
 .footer__item {
   padding: 1rem;
   list-style: none;
-  color: $color-darkBlue;
+  color: $color-cyan;
   font-family: $font-primary;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -26,13 +26,13 @@
   list-style: none;
   a {
     text-decoration: none;
-    color: $color-darkBlue;
+    color: $color-cyan;
     cursor: pointer;
   }
 }
 .sunnyside {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: $color-footer;
+  color: $color-cyan;
   font-family: $font-primary;
 }
