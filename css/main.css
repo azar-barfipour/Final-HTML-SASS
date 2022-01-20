@@ -6,7 +6,7 @@
 }
 
 .header {
-  background-image: url("../../images/desktop/image-header.jpg");
+  background-image: url("./../images/desktop/image-header.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@
 
 .back-gallery {
   position: relative;
-  background-image: url("../../images/desktop/image-graphic-design.jpg");
+  background-image: url("./../images/desktop/image-graphic-design.jpg");
   height: 600px;
   max-height: 100vh;
   max-width: 100vw;
@@ -135,7 +135,7 @@
 
 .back-gallery2 {
   position: relative;
-  background-image: url("../../images/desktop/image-photography.jpg");
+  background-image: url("./../images/desktop/image-photography.jpg");
   height: 600px;
   max-height: 100vh;
   max-width: 100vw;
